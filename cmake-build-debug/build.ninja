@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/Administrator/CLionProjects/LowLevel/cmake-build
 
 build cmake_object_order_depends_target_LowLevel: phony || CMakeFiles/LowLevel.dir
 
-build CMakeFiles/LowLevel.dir/Lab07/root_cal.c.obj: C_COMPILER__LowLevel_unscanned_Debug C$:/Users/Administrator/CLionProjects/LowLevel/Lab07/root_cal.c || cmake_object_order_depends_target_LowLevel
-  DEP_FILE = CMakeFiles\LowLevel.dir\Lab07\root_cal.c.obj.d
+build CMakeFiles/LowLevel.dir/Lab08/createBin.c.obj: C_COMPILER__LowLevel_unscanned_Debug C$:/Users/Administrator/CLionProjects/LowLevel/Lab08/createBin.c || cmake_object_order_depends_target_LowLevel
+  DEP_FILE = CMakeFiles\LowLevel.dir\Lab08\createBin.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\LowLevel.dir
-  OBJECT_FILE_DIR = CMakeFiles\LowLevel.dir\Lab07
+  OBJECT_FILE_DIR = CMakeFiles\LowLevel.dir\Lab08
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/LowLevel.dir/Lab07/root_cal.c.obj: C_COMPILER__LowLevel_unscann
 #############################################
 # Link the executable LowLevel.exe
 
-build LowLevel.exe: C_EXECUTABLE_LINKER__LowLevel_Debug CMakeFiles/LowLevel.dir/Lab07/root_cal.c.obj
+build LowLevel.exe: C_EXECUTABLE_LINKER__LowLevel_Debug CMakeFiles/LowLevel.dir/Lab08/createBin.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LowLevel.dir
