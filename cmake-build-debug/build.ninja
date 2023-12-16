@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Administrator/CLionProjects/LowLevel/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target LowLevel
+# Object build statements for EXECUTABLE target Lab10
 
 
 #############################################
-# Order-only phony target for LowLevel
+# Order-only phony target for Lab10
 
-build cmake_object_order_depends_target_LowLevel: phony || CMakeFiles/LowLevel.dir
+build cmake_object_order_depends_target_Lab10: phony || CMakeFiles/Lab10.dir
 
-build CMakeFiles/LowLevel.dir/Lab08/createBin.c.obj: C_COMPILER__LowLevel_unscanned_Debug C$:/Users/Administrator/CLionProjects/LowLevel/Lab08/createBin.c || cmake_object_order_depends_target_LowLevel
-  DEP_FILE = CMakeFiles\LowLevel.dir\Lab08\createBin.c.obj.d
+build CMakeFiles/Lab10.dir/Lab10/Lab10.c.obj: C_COMPILER__Lab10_unscanned_Debug C$:/Users/Administrator/CLionProjects/LowLevel/Lab10/Lab10.c || cmake_object_order_depends_target_Lab10
+  DEP_FILE = CMakeFiles\Lab10.dir\Lab10\Lab10.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\LowLevel.dir
-  OBJECT_FILE_DIR = CMakeFiles\LowLevel.dir\Lab08
+  OBJECT_DIR = CMakeFiles\Lab10.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab10.dir\Lab10
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target LowLevel
+# Link build statements for EXECUTABLE target Lab10
 
 
 #############################################
-# Link the executable LowLevel.exe
+# Link the executable Lab10.exe
 
-build LowLevel.exe: C_EXECUTABLE_LINKER__LowLevel_Debug CMakeFiles/LowLevel.dir/Lab08/createBin.c.obj
+build Lab10.exe: C_EXECUTABLE_LINKER__Lab10_Debug CMakeFiles/Lab10.dir/Lab10/Lab10.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\LowLevel.dir
+  OBJECT_DIR = CMakeFiles\Lab10.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = LowLevel.exe
-  TARGET_IMPLIB = libLowLevel.dll.a
-  TARGET_PDB = LowLevel.exe.dbg
+  TARGET_FILE = Lab10.exe
+  TARGET_IMPLIB = libLab10.dll.a
+  TARGET_PDB = Lab10.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build LowLevel: phony LowLevel.exe
+build Lab10: phony Lab10.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build LowLevel: phony LowLevel.exe
 #############################################
 # Folder: C:/Users/Administrator/CLionProjects/LowLevel/cmake-build-debug
 
-build all: phony LowLevel.exe
+build all: phony Lab10.exe
 
 # =============================================================================
 # Built-in targets

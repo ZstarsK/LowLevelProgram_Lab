@@ -3,4 +3,4 @@ project(LowLevel C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(LowLevel Lab08/createBin.c)
+add_executable(Lab10 Lab10/Lab10.c)

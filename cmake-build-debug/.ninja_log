@@ -1,14 +1,13 @@
 # ninja log v5
-2	162	7239079892215345	LowLevel.exe	b3955432f2e67e0a
-0	269	7239079969168662	build.ninja	97ada3a711c9edc1
+140	308	7240730759964476	LowLevel.exe	4f2f9f00c1b3f2a3
+0	269	7243277232539193	build.ninja	97ada3a711c9edc1
 2	134	7234702789702941	CMakeFiles/LowLevel.dir/Lab07/root_cal.c.obj	2726bbbd712edfdd
 2	164	7233812289524408	CMakeFiles/LowLevel.dir/Lab07/factorial_facts.c.obj	91479417b8405da
 1	155	7233809528648765	CMakeFiles/untitled.dir/Lab07/factorial_facts.c.obj	3139188cd53ff44e
-2	124	7239069045323634	CMakeFiles/LowLevel.dir/Lab08/createBin.c.obj	28db3e226e459dab
+24	165	7240729741354401	CMakeFiles/LowLevel.dir/Lab08/createBin.c.obj	28db3e226e459dab
 2	131	7239079650043425	CMakeFiles/LowLevel.dir/Lab08/root_cal.c.obj	96349fe15e661f72
-3	127	7239091450902087	CMakeFiles/LowLevel.dir/Lab08/createBin.c.obj	28db3e226e459dab
-128	409	7239091452627385	LowLevel.exe	b3955432f2e67e0a
-2	128	7239091920723404	CMakeFiles/LowLevel.dir/Lab08/createBin.c.obj	28db3e226e459dab
-129	302	7239091922393694	LowLevel.exe	b3955432f2e67e0a
-2	167	7239092078030629	CMakeFiles/LowLevel.dir/Lab08/createBin.c.obj	28db3e226e459dab
-168	336	7239092079660914	LowLevel.exe	b3955432f2e67e0a
+2	139	7240730758299185	CMakeFiles/LowLevel.dir/Lab09/cal_area.c.obj	fcd5cf9911ca6abd
+1	137	7240736540836982	CMakeFiles/verify.dir/Lab09/verify.c.obj	2d0426337f3337db
+138	305	7240736542542279	verify.exe	10faf6316f9d4efa
+1	660	7243285586044369	CMakeFiles/Lab10.dir/Lab10/Lab10.c.obj	49a7212a31517e5d
+662	1298	7243285592387514	Lab10.exe	42e24a3e858bec80
